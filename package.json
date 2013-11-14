@@ -1,0 +1,36 @@
+{
+  "name": "neorm",
+  "version": "0.0.1",
+  "author": "Bret Copeland <bret@atlantisflight.org>",
+  "description": "[IN VERY EARLY DEVELOPMENT] A Neo4j ORM for Node.js with syntax inspired by Mongoose.",
+  "contributors": [
+    {
+      "name": "Bret Copeland",
+      "email": "bret@atlantisflight.org"
+    }
+  ],
+  "main": "./lib/neorm.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bretcope/neorm.git"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "~1.14.0",
+    "chai": "~1.8.1"
+  },
+  "keywords": [
+    "neo4j",
+    "rest",
+    "api",
+    "graph",
+    "database",
+    "asynchronous",
+    "orm"
+  ],
+  "license": "MIT"
+}
