@@ -1,2 +1,5 @@
---reporter Spec
+--reporter spec
 --timeout 3000
+--ui tdd
+--require co-mocha
+--bail

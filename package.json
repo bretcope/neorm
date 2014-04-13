@@ -11,17 +11,19 @@
   ],
   "main": "./lib/neorm.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --harmony"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/bretcope/neorm.git"
   },
   "dependencies": {
+    "co": "3.0.4",
+    "co-request": "0.2.0"
   },
   "devDependencies": {
-    "mocha": "~1.14.0",
-    "chai": "~1.8.1"
+    "co-mocha": "0.0.2",
+    "mocha": "1.18.2"
   },
   "keywords": [
     "neo4j",
